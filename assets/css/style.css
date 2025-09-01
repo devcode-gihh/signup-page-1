@@ -31,11 +31,11 @@ body {
 
 .signup .card {
   display: flex;
-  flex-direction: column;
   background-color: var(--color-card);
   border-radius: 22px;
-  padding: 6px;
-  width: clamp(300px, 85vw, 500px);
+  padding: 6px 0 6px 6px;
+  width: 85vw;
+  max-width: 740px;
   box-shadow: 0 50px 100px rgba(0, 0, 0, 0.12);
 }
 
@@ -52,6 +52,8 @@ body {
   border-radius: 16px;
   overflow: hidden;
   transition: .3s;
+  flex: 1 1 50%;
+  width: 50%;
 }
 
 .hero .hero-inner {
@@ -62,15 +64,11 @@ body {
 }
 
 .card form {
-  padding: 30px 18px;
+  padding: 60px 30px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   transition: padding .3s;
-}
-
-.card form :is(h2, h3) { /* sama dengan form h2, form h3 */
-  text-align: center;
 }
 
 .card form > h2 {
@@ -98,7 +96,7 @@ body {
 
 .card form input {
   background-color: #3c364c;
-  padding: 0 .7rem;
+  padding: 0 .9rem;
 }
 
 .card form input::placeholder {

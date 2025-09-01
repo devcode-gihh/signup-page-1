@@ -1,0 +1,34 @@
+@media screen and (max-width: 1366px) {
+    .card .hero {
+      flex: 1 1 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .signup .card {
+    flex-direction: column;
+    padding: 6px;
+    width: 95vw;
+    max-width: 500px;
+  }
+
+  .card .hero {
+    width: 100%;
+    transition: none;
+  }
+
+  .card form :is(h2, h3) {
+    text-align: center;
+  }
+
+  .card form {
+    padding: 30px 18px;
+    padding-inline: 50px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .card form {
+    padding-inline: 18px;
+  }
+}
