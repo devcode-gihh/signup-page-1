@@ -8,7 +8,6 @@
   .signup .card {
     flex-direction: column;
     padding: 6px;
-    width: 95vw;
     max-width: 500px;
   }
 
