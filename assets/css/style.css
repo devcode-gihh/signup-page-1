@@ -18,7 +18,7 @@ p {
 
 body {
   margin: 0;
-  background-color: #6e56b0;
+  background: linear-gradient(#252043 30%, #000000);
   color: white;
   font-family: "Euclid Circular B", "Poppins";
 }
@@ -31,7 +31,9 @@ body {
 
 .signup .card {
   display: flex;
-  background-color: var(--color-card);
+  background-color: rgb(37, 32, 67, .2);
+  backdrop-filter: blur(5px);
+  border: 2px solid rgb(142, 142, 142, .3);
   border-radius: 22px;
   padding: 6px 0 6px 6px;
   width: 85vw;
@@ -95,7 +97,7 @@ body {
 }
 
 .card form input {
-  background-color: #3c364c;
+  background-color: rgb(255, 255, 255, .1);
   padding: 0 .9rem;
 }
 
